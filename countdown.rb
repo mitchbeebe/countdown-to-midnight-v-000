@@ -3,7 +3,7 @@
 def countdown(number)
   i = number
   while i >= 0 do
-    puts "#{i} SECOND(S)!"
+    puts "#{i.to_s} SECOND(S)!"
     i -= 1
     sleep(0.5)
   end
